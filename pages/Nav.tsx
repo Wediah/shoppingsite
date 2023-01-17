@@ -1,6 +1,8 @@
 import React from 'react'
 import {TbSearch} from 'react-icons/tb'
-
+import {AiOutlineShoppingCart} from 'react-icons/ai'
+import {BsPerson} from 'react-icons/bs'
+ 
 function Nav() {
   return (
     <nav className='bg-white shadow-lg w-full fixed z-20 '>
@@ -13,7 +15,10 @@ function Nav() {
                     <div>
                       <h1 className='text-2xl font-bold'>PJ</h1>
                     </div>
-                    <div>h3</div>
+                    <div>
+                      <div><AiOutlineShoppingCart/></div>
+                      <div><BsPerson/></div>
+                    </div>
                 </div>
             </div>
         </div>
