@@ -16,8 +16,8 @@ function Nav() {
                       <h1 className='text-2xl font-bold'>PJ</h1>
                     </div>
                     <div className='flex items-center gap-5'>
-                      <div><AiOutlineShoppingCart className='text-2xl '/></div>
-                      <div><BsPerson className='text-2xl '/></div>
+                      <div><AiOutlineShoppingCart className='text-2xl hover:scale-75 duration-100'/></div>
+                      <div><BsPerson className='text-2xl hover:scale-75 duration-100'/></div>
                     </div>
                 </div>
             </div>
