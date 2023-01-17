@@ -10,14 +10,14 @@ function Nav() {
             <div className='flex items-center h-20 w-full'>
                 <div className='flex items-center mx-10 justify-between w-full'>
                     <div>
-                      <div><TbSearch className='text-2xl hover:scale-75 duration-100'/></div>
+                      <div><TbSearch className='text-2xl hover:scale-75 duration-100 cursor-pointer'/></div>
                     </div>
                     <div>
-                      <h1 className='text-2xl font-bold'>PJ</h1>
+                      <h1 className='text-2xl font-bold cursor-pointer'>PJ</h1>
                     </div>
                     <div className='flex items-center gap-5'>
-                      <div><AiOutlineShoppingCart className='text-2xl hover:scale-75 duration-100'/></div>
-                      <div><BsPerson className='text-2xl hover:scale-75 duration-100'/></div>
+                      <div><AiOutlineShoppingCart className='text-2xl hover:scale-75 duration-100 cursor-pointer'/></div>
+                      <div><BsPerson className='text-2xl hover:scale-75 duration-100 cursor-pointer'/></div>
                     </div>
                 </div>
             </div>
