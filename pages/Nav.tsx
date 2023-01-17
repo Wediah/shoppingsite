@@ -10,7 +10,9 @@ function Nav() {
                     <div>
                       <div><TbSearch/></div>
                     </div>
-                    <div>h2</div>
+                    <div>
+                      <h1 className='text-2xl font-bold'>PJ</h1>
+                    </div>
                     <div>h3</div>
                 </div>
             </div>
