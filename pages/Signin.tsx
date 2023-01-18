@@ -1,8 +1,12 @@
 import React from 'react'
 import Nav from './Nav'
+import { useRouter } from 'next/router'
 
 function Signin() {
+
+    const router = useRouter()
   return (
+
     <>
         <Nav/>
         <div className='min-h-screen relative flex flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12'>
@@ -25,7 +29,7 @@ function Signin() {
                             <div className="my-6">
                                 <button type="submit" className="w-full rounded-md bg-black px-3 py-4 text-white focus:bg-gray-600 focus:outline-none">Sign in</button>
                             </div>
-                            <p className="text-center text-sm text-gray-500">Don&#x27;t have an account yet? <a href="#!" className="font-semibold text-gray-600 hover:underline focus:text-gray-800 focus:outline-none">Sign up</a>.</p>
+                            <p className="text-center text-sm text-gray-500">Don&#x27;t have an account yet? <a href="#!" className="font-semibold text-gray-600 hover:underline focus:text-gray-800 focus:outline-none" onClick={() => router.push('/Signup')}>Sign up</a>.</p>
                         </form>
                     </div>
                 </div>
