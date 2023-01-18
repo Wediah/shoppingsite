@@ -20,7 +20,7 @@ function Nav() {
                       </div>
                     </div>
                     <div>
-                      <h1 className='text-2xl font-bold cursor-pointer'>PJ</h1>
+                      <h1 className='text-2xl font-bold cursor-pointer ' onClick={() => router.push('/')}>PJ</h1>
                     </div>
                     <div className='flex items-center gap-5'>
                       <div><AiOutlineShoppingCart className='text-2xl hover:scale-75 duration-100 cursor-pointer'/></div>
