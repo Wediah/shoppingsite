@@ -2,8 +2,12 @@ import React from 'react'
 import {TbSearch} from 'react-icons/tb'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 import {BsPerson} from 'react-icons/bs'
+import { useRouter } from 'next/router'
  
 function Nav() {
+
+  const router = useRouter()
+
   return (
     <nav className='bg-white shadow-lg w-full fixed z-20 '>
         <div className='w-full'>
@@ -20,7 +24,7 @@ function Nav() {
                     </div>
                     <div className='flex items-center gap-5'>
                       <div><AiOutlineShoppingCart className='text-2xl hover:scale-75 duration-100 cursor-pointer'/></div>
-                      <div><BsPerson className='text-2xl hover:scale-75 duration-100 cursor-pointer'/></div>
+                      <div><BsPerson className='text-2xl hover:scale-75 duration-100 cursor-pointer' onClick={() => router.push('/Signin')}/></div>
                     </div>
                 </div>
             </div>
