@@ -31,6 +31,9 @@ function Signin() {
                             </div>
                             <p className="text-center text-sm text-gray-500">Don&#x27;t have an account yet? <a href="#!" className="font-semibold text-gray-600 hover:underline focus:text-gray-800 focus:outline-none" onClick={() => router.push('/Signup')}>Sign up</a>.</p>
                             <p className='text-center text-sm '>or sign in with;</p>
+                            <div>
+                                
+                            </div>
                         </form>
                     </div>
                 </div>
