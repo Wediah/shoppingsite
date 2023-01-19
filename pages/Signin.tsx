@@ -36,7 +36,7 @@ function Signin() {
                             <p className="text-center text-sm text-gray-500">Don&#x27;t have an account yet? <a href="#!" className="font-semibold text-gray-600 hover:underline focus:text-gray-800 focus:outline-none" onClick={() => router.push('/Signup')}>Sign up</a>.</p>
                             <p className='text-center text-sm '>or sign in with;</p>
                             <div className='flex gap-5 justify-center mt-2'>
-                                
+                                <button className='text-sm flex bg-black h-8 text-white p-2 font-semibold rounded-md'><FcGoogle className='text-lg align-middle mr-1 '/>Sign in with Google</button>
                                 <button className='text-sm flex bg-black h-8 text-white p-2 font-semibold rounded-md'><BsApple className='text-lg align-middle mr-1'/>Continue with Apple</button>
                             </div>
                         </form>
