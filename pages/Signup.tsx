@@ -3,7 +3,7 @@ import Nav from './Nav'
 import { useRouter } from 'next/router'
 import {BsApple} from 'react-icons/bs'
 import {FcGoogle} from 'react-icons/fc'
-import { auth } from './firebase'
+import { auth } from './firebaseApp'
 import {createUserWithEmailAndPassword, sendEmailVerification} from 'firebase/auth'
 
 
