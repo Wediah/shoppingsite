@@ -4,6 +4,12 @@ function Landing() {
   return (
     <div className='min-h-screen'>
 
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
     </div>
   )
 }
