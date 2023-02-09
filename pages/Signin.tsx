@@ -33,6 +33,7 @@ function Signin() {
                             <div className="my-6">
                                 <button type="submit" className="w-full rounded-md bg-black px-3 py-4 text-white focus:bg-gray-600 focus:outline-none">Sign in</button>
                             </div>
+                            <p>Forgot your password? <a href=""> Get Help.</a></p>
                             <p className="text-center text-sm text-gray-500">Don&#x27;t have an account yet? <a href="#!" className="font-semibold text-gray-600 hover:underline focus:text-gray-800 focus:outline-none" onClick={() => router.push('/Signup')}>Sign up</a>.</p>
                             <p className='text-center text-sm text-gray-500'>or</p>
                             <div className='flex gap-5 justify-center mt-2'>
