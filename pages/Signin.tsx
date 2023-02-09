@@ -13,7 +13,7 @@ function Signin() {
 
     <>
         <Nav/>
-        <div className='min-h-screen relative flex flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12'>
+        <div className='min-h-screen relative flex flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12 cursor-default'>
             <div className='relative mx-auto w-full max-w-md bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:rounded-xl sm:px-10'>
                 <div className='w-full'>
                     <div className='text-center'>
@@ -33,8 +33,8 @@ function Signin() {
                             <div className="mt-6 mb-2">
                                 <button type="submit" className="w-full rounded-md bg-black px-3 py-4 text-white focus:bg-gray-600 focus:outline-none">Sign in</button>
                             </div>
-                            <p className="text-center text-sm">Forgot your password? <a href="" className='cursor-pointer hover:underline focus:text-gray-400 underline-offset-2'> Get Help.</a></p>
-                            <p className="text-center text-sm text-gray-500">Don&#x27;t have an account yet? <a href="#!" className="font-semibold text-gray-600 hover:underline focus:text-gray-800 focus:outline-none" onClick={() => router.push('/Signup')}>Sign up</a>.</p>
+                            <p className="text-center text-sm cursor-default">Forgot your password? <a href="" className='cursor-pointer hover:underline focus:text-gray-400 underline-offset-2'> Get Help.</a></p>
+                            <p className="text-center text-sm text-gray-500 cursor-default">Don&#x27;t have an account yet? <a href="#!" className="font-semibold text-gray-600 hover:underline focus:text-gray-800 focus:outline-none" onClick={() => router.push('/Signup')}>Sign up</a>.</p>
                             <p className='text-center text-sm text-gray-500'>or</p>
                             <div className='flex gap-5 justify-center mt-2'>
                                 <button className='text-sm flex bg-black h-8 text-white p-2 font-semibold rounded-md cursor-pointer'><FcGoogle className='text-lg align-middle mr-1 '/>Sign in with Google</button>
