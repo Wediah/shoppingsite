@@ -1,4 +1,6 @@
 import React from 'react'
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 function Landing() {
   return (
@@ -11,7 +13,9 @@ function Landing() {
             <button className='text-black font-bold text-xl outline-white outline hover:outline-none outline-offset-4 rounded-full p-3 bg-white ' type='button' title='shop now'>Shop Now!</button>
           </div>
         </div>
-        <div></div>
+        <div className=" bg-no-repeat  bg-cover bg-center  bg-black  " style={{ backgroundImage: 'url(pjbg2.svg)'}}>
+
+        </div>
         <div></div>
       </div>
 
