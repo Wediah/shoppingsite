@@ -72,7 +72,11 @@ function Landing() {
             <button className='text-black font-bold text-xl outline-white outline hover:outline-none outline-offset-4 rounded-full p-3 bg-white ' type='button' title='shop now'>Shop Now!</button>
           </div>
         </div>
-        <div></div>
+        <div className=" bg-no-repeat  bg-cover bg-center  bg-black  " style={{ backgroundImage: 'url(pjbg1.svg)'}}>
+          <div>
+
+          </div>
+        </div>
       </Carousel>
 
     </div>
