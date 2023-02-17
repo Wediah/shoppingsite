@@ -73,8 +73,8 @@ function Landing() {
           </div>
         </div>
         <div className=" bg-no-repeat  bg-cover bg-center  bg-black  " style={{ backgroundImage: 'url(pjbg3.svg)'}}>
-          <div>
-
+          <div className='text-6xl font-bold p-28 text-white'>
+            
           </div>
         </div>
       </Carousel>
