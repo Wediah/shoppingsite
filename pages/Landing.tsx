@@ -74,7 +74,9 @@ function Landing() {
         </div>
         <div className=" bg-no-repeat  bg-cover bg-center  bg-black  " style={{ backgroundImage: 'url(pjbg3.svg)'}}>
           <div className='text-6xl font-bold p-28 text-white'>
-            
+            Get your tickets<br />
+            for Bethel Revival's live album recording! <br />
+            <button className='text-black font-bold text-xl outline-white outline hover:outline-none outline-offset-4 rounded-full p-3 bg-white ' type='button' title='shop now'>Shop Now!</button>
           </div>
         </div>
       </Carousel>
