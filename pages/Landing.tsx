@@ -81,8 +81,17 @@ function Landing() {
         </div>
       </Carousel>
 
-      <div className='flex'>
-
+      <div className='flex pt-10'>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div>a</div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
       </div>
 
     </div>
