@@ -82,7 +82,7 @@ function Landing() {
         </div>
       </Carousel>
 
-      <div className='flex pt-10'>
+      <div className='flex pt-10 gap-4'>
           <div>
           <Image
             src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
