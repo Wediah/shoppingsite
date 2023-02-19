@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import Image from 'next/image';
 
 function Landing() {
   return (
@@ -82,7 +83,11 @@ function Landing() {
       </Carousel>
 
       <div className='flex pt-10'>
-          <div></div>
+          <div>
+          <Image
+            src="" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            />
+          </div>
           <div></div>
           <div></div>
           <div></div>
