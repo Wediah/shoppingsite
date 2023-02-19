@@ -21,7 +21,7 @@ function Landing() {
       infinite
       itemClass=""
       keyBoardControl
-      minimumTouchDrag={80}
+      minimumTouchDrag={100}
       pauseOnHover
       renderArrowsWhenDisabled={false}
       renderButtonGroupOutside={false}
@@ -85,52 +85,52 @@ function Landing() {
       <div className='flex pt-10 gap-4'>
           <div>
           <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
       </div>
