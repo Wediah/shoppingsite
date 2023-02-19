@@ -88,15 +88,51 @@ function Landing() {
             src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
             />
           </div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div>
+            <Image
+            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            />
+          </div>
+          <div>
+            <Image
+            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            />
+          </div>
+          <div>
+            <Image
+            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            />
+          </div>
+          <div>
+            <Image
+            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            />
+          </div>
+          <div>
+            <Image
+            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            />
+          </div>
+          <div>
+            <Image
+            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            />
+          </div>
+          <div>
+            <Image
+            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            />
+          </div>
+          <div>
+            <Image
+            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            />
+          </div>
+          <div>
+            <Image
+            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            />
+          </div>
       </div>
 
     </div>
