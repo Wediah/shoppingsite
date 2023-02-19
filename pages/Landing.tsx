@@ -85,7 +85,7 @@ function Landing() {
       <div className='flex pt-10'>
           <div>
           <Image
-            src="" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
+            src="/pjbg1.svg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div></div>
