@@ -82,58 +82,108 @@ function Landing() {
         </div>
       </Carousel>
 
-      <div className='flex pt-10 gap-4'>
+
+      <Carousel 
+      additionalTransfrom={0}
+      arrows
+      centerMode
+      className="pt-10 gap-4"
+      containerClass="container-with-dots"
+      dotListClass=""
+      draggable
+      focusOnSelect={false}
+      infinite
+      itemClass=""
+      keyBoardControl
+      minimumTouchDrag={100}
+      pauseOnHover
+      renderArrowsWhenDisabled={false}
+      renderButtonGroupOutside={false}
+      renderDotsOutside={false}
+      responsive={{
+        desktop: {
+          breakpoint: {
+            max: 3000,
+            min: 1024
+          },
+          items: 1,
+          partialVisibilityGutter: 40
+        },
+        mobile: {
+          breakpoint: {
+            max: 464,
+            min: 0
+          },
+          items: 1,
+          partialVisibilityGutter: 30
+        },
+        tablet: {
+          breakpoint: {
+            max: 1024,
+            min: 464
+          },
+          items: 1,
+          partialVisibilityGutter: 30
+        }
+      }}
+      rewind={false}
+      rewindWithAnimation={false}
+      rtl={false}
+      showDots={false}
+      sliderClass=""
+      slidesToSlide={2}
+      swipeable>
           <div>
           <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/pjbg1.svg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
             />
           </div>
-      </div>
+      </Carousel>
 
     </div>
   )
