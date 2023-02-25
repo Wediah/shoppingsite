@@ -106,7 +106,7 @@ function Landing() {
             max: 3000,
             min: 1024
           },
-          items: 1,
+          items: 4,
           partialVisibilityGutter: 40
         },
         mobile: {
@@ -122,7 +122,7 @@ function Landing() {
             max: 1024,
             min: 464
           },
-          items: 1,
+          items: 3,
           partialVisibilityGutter: 30
         }
       }}
