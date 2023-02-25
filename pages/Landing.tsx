@@ -135,52 +135,52 @@ function Landing() {
       swipeable>
           <div>
           <Image
-            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="Home at Dobro" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="Home at Dobro" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
             />
           </div>
       </Carousel>
