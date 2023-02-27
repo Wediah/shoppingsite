@@ -61,23 +61,23 @@ function Landing() {
       slidesToSlide={2}
       swipeable>
         <div className=" bg-no-repeat  bg-cover bg-center  bg-black  " style={{ backgroundImage: 'url(pjbg1.svg)'}}>
-          <div className='test-xl lg:text-6xl font-bold p-28 text-white'>
+          <div className='text-2xl lg:text-6xl font-bold p-12 lg:p-28 text-white'>
             Get 20% OFF! <br /> When You Purchase above $100 <br />
-            <button className='text-black font-bold text-xl outline-white outline hover:outline-none outline-offset-4 rounded-full p-3 bg-white ' type='button' title='shop now'>Shop Now!</button>
+            <button className='text-black font-bold text-sm lg:text-xl outline-white outline hover:outline-none outline-offset-4 rounded-full p-1 lg:p-3 mt-4 bg-white ' type='button' title='shop now'>Shop Now!</button>
           </div>
         </div>
         <div className=" bg-no-repeat  bg-cover bg-center  bg-black  " style={{ backgroundImage: 'url(pjbg2.svg)'}}>
-          <div className='text-xl lg:text-6xl font-bold p-28 text-white'>
+          <div className='text-2xl lg:text-6xl font-bold p-12 lg:p-28 text-white'>
             Millinery needs?? <br />
             you are at the right place! <br />
-            <button className='text-black font-bold text-xl outline-white outline hover:outline-none outline-offset-4 rounded-full p-3 bg-white ' type='button' title='shop now'>Shop Now!</button>
+            <button className='text-black font-bold text-sm lg:text-xl outline-white outline hover:outline-none outline-offset-4 rounded-full p-1 lg:p-3 mt-4 bg-white' type='button' title='shop now'>Shop Now!</button>
           </div>
         </div>
         <div className=" bg-no-repeat  bg-cover bg-center  bg-black  " style={{ backgroundImage: 'url(pjbg3.svg)'}}>
-          <div className='text-xl lg:text-6xl font-bold p-28 text-white'>
+          <div className='text-2xl lg:text-6xl font-bold p-12 lg:p-28 text-white'>
             Get your tickets<br />
             for Bethel Revival's live album recording! <br />
-            <button className='text-black font-bold text-xl outline-white outline hover:outline-none outline-offset-4 rounded-full p-3 bg-white ' type='button' title='shop now'>Shop Now!</button>
+            <button className='text-black font-bold text-sm lg:text-xl outline-white outline hover:outline-none outline-offset-4 mt-4 rounded-full p-1 lg:p-3 bg-white ' type='button' title='shop now'>Shop Now!</button>
           </div>
         </div>
       </Carousel>
