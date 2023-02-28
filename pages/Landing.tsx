@@ -1,7 +1,8 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
+import {MdArrowBackIosNew, MdArrowForwardIos} from 'react-icons/md'
 
 function Landing() {
   return (
@@ -86,16 +87,19 @@ function Landing() {
       <Carousel 
       additionalTransfrom={0}
       arrows
-      centerMode
-      className="pt-10 gap-4"
-      containerClass="container-with-dots"
+      autoPlaySpeed={3000}
+      centerMode={false}
+      className=""
+      containerClass="container"
+      customLeftArrow={<MdArrowBackIosNew className='text-9xl z-10' />}
+      customRightArrow={<MdArrowForwardIos />}
       dotListClass=""
       draggable
       focusOnSelect={false}
       infinite
       itemClass=""
       keyBoardControl
-      minimumTouchDrag={100}
+      minimumTouchDrag={80}
       pauseOnHover
       renderArrowsWhenDisabled={false}
       renderButtonGroupOutside={false}
@@ -133,54 +137,54 @@ function Landing() {
       sliderClass=""
       slidesToSlide={2}
       swipeable>
-          <div>
+          <div className='hover:shadow-2xl'>
           <Image
-            src="/facinator.jpeg" alt="" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
             />
           </div>
           <div>
             <Image
-            src="/facinator.jpeg" alt="" width={'50'} height={'50'} layout="responsive" className='rounded-sm'
+            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
             />
           </div>
       </Carousel>
