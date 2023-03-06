@@ -3,51 +3,9 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Image from 'next/legacy/image';
 import {MdArrowBackIosNew, MdArrowForwardIos} from 'react-icons/md'
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
+
 
 function Landing() {
-
-  const responsive = {
-    0: { items: 1 },
-    568: { items: 2 },
-    1024: { items: 3 },
-};
-
-
-  const items = [
-    <><div className='hover:shadow-2xl bg-blue-300'>
-      <Image
-        src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
-    </div><div>
-        <Image
-          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
-      </div><div>
-        <Image
-          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
-      </div><div>
-        <Image
-          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
-      </div><div>
-        <Image
-          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
-      </div><div>
-        <Image
-          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
-      </div><div>
-        <Image
-          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
-      </div><div>
-        <Image
-          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
-      </div><div>
-        <Image
-          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
-      </div><div>
-        <Image
-          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
-      </div></>
-  ]
   return (
     <div className='min-h-screen pt-36 px-10'>
 
@@ -127,7 +85,6 @@ function Landing() {
       </Carousel>
 
 
-      <AliceCarousel responsive={responsive} mouseTracking items={items}/>
 
     </div>
   )
