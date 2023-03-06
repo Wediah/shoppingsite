@@ -137,7 +137,7 @@ function Landing() {
       sliderClass=""
       slidesToSlide={2}
       swipeable>
-          <div className='hover:shadow-2xl'>
+          <div className='hover:shadow-2xl bg-blue-300'>
           <Image
             src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
             />
