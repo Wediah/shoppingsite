@@ -23,6 +23,7 @@ export default function Home() {
       <main>
         <Nav/>
         <Landing/>
+        
       </main>
     </>
   )
