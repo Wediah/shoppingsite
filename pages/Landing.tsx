@@ -3,8 +3,51 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Image from 'next/legacy/image';
 import {MdArrowBackIosNew, MdArrowForwardIos} from 'react-icons/md'
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 function Landing() {
+
+  const responsive = {
+    0: { items: 1 },
+    568: { items: 2 },
+    1024: { items: 3 },
+};
+
+
+  const items = [
+    <><div className='hover:shadow-2xl bg-blue-300'>
+      <Image
+        src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
+    </div><div>
+        <Image
+          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
+      </div><div>
+        <Image
+          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
+      </div><div>
+        <Image
+          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
+      </div><div>
+        <Image
+          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
+      </div><div>
+        <Image
+          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
+      </div><div>
+        <Image
+          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
+      </div><div>
+        <Image
+          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
+      </div><div>
+        <Image
+          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
+      </div><div>
+        <Image
+          src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm' />
+      </div></>
+  ]
   return (
     <div className='min-h-screen pt-36 px-10'>
 
@@ -84,110 +127,7 @@ function Landing() {
       </Carousel>
 
 
-      <Carousel 
-      additionalTransfrom={0}
-      arrows
-      autoPlaySpeed={3000}
-      centerMode={false}
-      className=""
-      containerClass="container"
-      customLeftArrow={<MdArrowBackIosNew className='text-9xl z-10' />}
-      customRightArrow={<MdArrowForwardIos />}
-      dotListClass=""
-      draggable
-      focusOnSelect={false}
-      infinite
-      itemClass=""
-      keyBoardControl
-      minimumTouchDrag={80}
-      pauseOnHover
-      renderArrowsWhenDisabled={false}
-      renderButtonGroupOutside={false}
-      renderDotsOutside={false}
-      responsive={{
-        desktop: {
-          breakpoint: {
-            max: 3000,
-            min: 1024
-          },
-          items: 4,
-          partialVisibilityGutter: 40
-        },
-        mobile: {
-          breakpoint: {
-            max: 464,
-            min: 0
-          },
-          items: 1,
-          partialVisibilityGutter: 30
-        },
-        tablet: {
-          breakpoint: {
-            max: 1024,
-            min: 464
-          },
-          items: 3,
-          partialVisibilityGutter: 30
-        }
-      }}
-      rewind={false}
-      rewindWithAnimation={false}
-      rtl={false}
-      showDots={false}
-      sliderClass=""
-      slidesToSlide={2}
-      swipeable>
-          <div className='hover:shadow-2xl bg-blue-300'>
-          <Image
-            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
-            />
-          </div>
-          <div>
-            <Image
-            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
-            />
-          </div>
-          <div>
-            <Image
-            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
-            />
-          </div>
-          <div>
-            <Image
-            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
-            />
-          </div>
-          <div>
-            <Image
-            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
-            />
-          </div>
-          <div>
-            <Image
-            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
-            />
-          </div>
-          <div>
-            <Image
-            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
-            />
-          </div>
-          <div>
-            <Image
-            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
-            />
-          </div>
-          <div>
-            <Image
-            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
-            />
-          </div>
-          <div>
-            <Image
-            src="/facinator.jpeg" alt="" width={'150'} height={'150'} layout="responsive" className='rounded-sm'
-            />
-          </div>
-      </Carousel>
+      <AliceCarousel responsive={responsive} mouseTracking items={items}/>
 
     </div>
   )
