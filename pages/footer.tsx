@@ -1,6 +1,6 @@
 import React from 'react'
 
-function footer() {
+function Footer() {
   return (
     <footer className='bg-black '>
         <p className='text-center text-white text-md'>All rights reserved. Copyright © 2023 </p>
@@ -8,4 +8,4 @@ function footer() {
   )
 }
 
-export default footer
+export default Footer
