@@ -13,18 +13,15 @@ function Nav() {
         <div className='w-full'>
             <div className='flex items-center h-20 w-full'>
                 <div className='flex items-center mx-10 justify-between w-full'>
-                    <div className='flex h-10 bg-gray-300 rounded-xl overflow-hidden text-center'>
-                      <div className='flex items-center relative '>
+                    <div className='flex h-10 transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 rounded-full overflow-hidden text-center'>
                         <div><TbSearch className='text-2xl  cursor-pointer align-middle m-2'/></div>
-                        <input type="text" placeholder='Search' className='w-full h-10 outline-none border-none text-md font-semibold bg-gray-200 focus:outline-none placeholder:text-slate-600 placeholder:italic placeholder:focus:opacity-0 placeholder:transition-all placeholder:ease-in-out placeholder:duration-75' />
-                      </div>
                     </div>
                     <div>
-                      <h1 className='text-2xl font-bold cursor-pointer ' onClick={() => router.push('/')}>PJ</h1>
+                      <h1 className='text-2xl font-bold cursor-pointer text-white' onClick={() => router.push('/')}>PJ</h1>
                     </div>
                     <div className='flex items-center gap-5'>
-                      <div><AiOutlineShoppingCart className='text-2xl hover:scale-75 duration-100 cursor-pointer'/></div>
-                      <div><BsPerson className='text-2xl hover:scale-75 duration-100 cursor-pointer' onClick={() => router.push('/Signin')}/></div>
+                      <div><AiOutlineShoppingCart className='text-2xl hover:scale-75 duration-100 cursor-pointer text-white'/></div>
+                      <div><BsPerson className='text-2xl hover:scale-75 duration-100 cursor-pointer text-white' onClick={() => router.push('/Signin')}/></div>
                     </div>
                 </div>
             </div>
