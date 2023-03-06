@@ -7,7 +7,7 @@ import {MdArrowBackIosNew, MdArrowForwardIos} from 'react-icons/md'
 
 function Landing() {
   return (
-    <div className='min-h-screen pt-36 px-10'>
+    <div className='min-h-screen'>
 
       <Carousel 
       additionalTransfrom={0}

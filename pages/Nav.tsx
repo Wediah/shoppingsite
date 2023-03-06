@@ -9,7 +9,7 @@ function Nav() {
   const router = useRouter()
 
   return (
-    <nav className='bg-white shadow-2xl w-full fixed z-20 '>
+    <nav className='bg-transparent shadow-2xl w-full fixed z-20 '>
         <div className='w-full'>
             <div className='flex items-center h-20 w-full'>
                 <div className='flex items-center mx-10 justify-between w-full'>
